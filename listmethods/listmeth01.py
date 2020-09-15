@@ -13,3 +13,4 @@ print(protoa)
 print(proto.index("http")) # pass the index value for "http"
 proto.reverse() #reverse the list
 print(proto)
+print(proto.remove(22)) # remove value 22 from list

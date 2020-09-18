@@ -5,3 +5,20 @@
 animal_list1 = ["Fox", "Fly", "Ant", "Bee", "Cod", "Cat", "Dog", "Yak", "Cow", "Hen", "Koi", "Hog", "Jay", "Kit"]
 print(animal_list1)
 
+print(animal_list1.index("Ant"))
+print(animal_list1[7])
+
+# List number and value for list until end of file
+#for tup in enumerate(animal_list1):
+#    print(tup)
+
+# The pop command will remove and item from your list.
+## animal_list1.pop()
+##  print(animal_list1)
+
+fish = animal_list1[9:]
+print(fish)
+
+
+r_animals = animal_list1[3:7]
+print(r_animals)

@@ -19,6 +19,11 @@ print(animal_list1[7])
 fish = animal_list1[9:]
 print(fish)
 
-
+# Print a range of animals
 r_animals = animal_list1[3:7]
 print(r_animals)
+
+# Instead of printing them one at a time and referencing ach item use a for loop
+for x in animal_list1:
+    print(x)
+

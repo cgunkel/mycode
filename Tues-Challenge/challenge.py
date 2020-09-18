@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 
+"""
+Script to demonsrate the use of the input command.
+
+"""
+
 # Pets list
 pets = ['fido', 'spot', 'fluffy']
 
